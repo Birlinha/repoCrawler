@@ -18,3 +18,7 @@ cd bytelegend-crawler
 ```
 python -m bytelegend-crawler
 ```
+
+input: Go
+
+output: data/bytelegend.csv containing https://github.com/orgs/ByteLegendQuest/repositories?type=all
