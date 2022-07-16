@@ -29,7 +29,7 @@ def localize_repositories(driver):
     
     repo_names = []
     for repo in org_repos:
-        name = repo.text.split("\n")[0]
+        name = repo.text.split(" ")[0]
         repo_names.append(name)
     
     return repo_names
@@ -67,8 +67,7 @@ def get_repos_fromUrl(url):
     with open('data/bytelegend.csv', 'w') as f:
         writer = csv.writer(f)
     
-        for repo in repoNames:
-            writer.writerow(repo)
+        writer.writerow(repoNames)
 
 if __name__ == "__main__":
     get_repos_fromUrl("https://github.com/orgs/ByteLegendQuest/repositories?type=all")
