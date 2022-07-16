@@ -28,5 +28,3 @@ python -m importer
 input: Go
 
 output: data/bytelegend.csv containing https://github.com/orgs/ByteLegendQuest/repositories?type=all
-
-![image.png](image.png)
