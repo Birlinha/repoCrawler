@@ -1,5 +1,8 @@
 # RepoCrawler
 
+Dependencies:
+ - Python 3.10
+
 How to use:
 
 ```
